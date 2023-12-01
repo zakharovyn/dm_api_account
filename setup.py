@@ -2,7 +2,8 @@ from distutils.core import setup
 
 REQUIRES = [
     'requests',
-    'allure-pytest'
+    'allure-pytest',
+    'restclient'
 ]
 
 setup(
