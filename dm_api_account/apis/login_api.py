@@ -1,5 +1,5 @@
-from apis.dm_api_account.models import LoginCredentials, UserEnvelope
-from utilites import validate_request_json, validate_status_code
+from dm_api_account.models import LoginCredentials, UserEnvelope
+from dm_api_account.utilites import validate_request_json, validate_status_code
 from restclient.restclient import Restclient
 from requests import Response
 import allure
