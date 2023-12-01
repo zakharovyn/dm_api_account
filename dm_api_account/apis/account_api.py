@@ -4,7 +4,7 @@ from dm_api_account.models.reset_password_model import ResetPassword
 from dm_api_account.models.user_envelope_model import UserEnvelope
 from dm_api_account.models.registration_model import Registration
 from dm_api_account.models.change_email_model import ChangeEmail
-from utilites import validate_request_json, validate_status_code
+from dm_api_account.utilites import validate_request_json, validate_status_code
 from restclient.restclient import Restclient
 from requests import Response
 import allure
